@@ -1,13 +1,4 @@
-/**
-* Template Name: Regna - v4.1.0
-* Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
 body {
   background: #fff;
   color: #666666;
@@ -97,6 +88,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
+#logo-text{
+  font-size: 45px;
+  color: white;
+  font-family: 'Train One', cursive;
+  
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
@@ -664,7 +661,7 @@ section {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #2dc997;
+  background: #f44336;
 }
 
 #services .icon a {
@@ -679,15 +676,15 @@ section {
 
 #services .box:hover .icon {
   background: #fff;
-  border: 2px solid #2dc997;
+  border: 2px solid #f44336;
 }
 
 #services .box:hover .icon i {
-  color: #2dc997;
+  color: #f44336;
 }
 
 #services .box:hover .icon a {
-  color: #2dc997;
+  color: #f44336;
 }
 
 #services .title {
@@ -991,7 +988,7 @@ section {
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #f44336;
   float: left;
   line-height: 0;
 }
@@ -1031,8 +1028,12 @@ section {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
+  background:#f44336;
   color: #fff;
+}
+#sndmsg
+{
+  background-color: #f44336;
 }
 
 #contact .php-email-form .error-message {
@@ -1071,7 +1072,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #f44336;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1084,11 +1085,11 @@ section {
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #2dc997;
+  background-color: #f44336;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #2dc997;
+  background: #f44336;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1096,7 +1097,7 @@ section {
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #51d8ad;
+  background: #f11222;
 }
 
 @-webkit-keyframes animate-loading {
