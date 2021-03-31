@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #2dc997;
+  color: #f44336;
 }
 
 .navbar .dropdown:hover > ul {
@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #2dc997;
+  color: #f44336;
 }
 
 .navbar-mobile .getstarted {
@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #2dc997;
+  color: #f44336;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -537,7 +537,8 @@ section {
   background: url(../img/image/hero-bg.jpg) center top no-repeat;
   margin-bottom: 10px;
   background-position: center;
-  box-shadow: 0 0 0 10px #f44336;
+  border-radius: 2px;
+  border:2px solid #f44336;
   background-size:cover;
 }
 
