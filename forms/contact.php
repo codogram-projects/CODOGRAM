@@ -37,10 +37,10 @@
   // $contact->add_message( $_POST['email'], 'Email');
   // $contact->add_message( $_POST['message'], 'Message', 10);
   if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject'])){
-    $name=mysqli_real_escape_string($con,$_POST['name']);
-    $email=mysqli_real_escape_string($con,$_POST['email']);
-    $mobile=mysqli_real_escape_string($con,$_POST['subject']);
-    $comment=mysqli_real_escape_string($con,$_POST['message']);
+    $name=$_POST['name']);
+    $email=$_POST['email'];
+    $mobile$_POST['subject'];
+    $comment$_POST['message'];
   
   $html="<table><tr><td>Name</td><td>$name</td></tr><tr><td>Email</td><td>$email</td></tr><tr><td>Mobile</td><td>$mobile</td></tr><tr><td>Comment</td><td>$comment</td></tr></table>";
 	
