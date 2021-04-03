@@ -712,6 +712,9 @@ section {
   background-size: cover;
   padding: 80px 0;
 }
+#calltoaction{
+  color: #f44336;
+}
 
 @media (max-width: 1024px) {
   #call-to-action {
