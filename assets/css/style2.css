@@ -974,6 +974,11 @@ section {
 
 /* Contact Section
 --------------------------------*/
+#moving-error{
+  color: red;
+  font-size: 15px;
+  font-family:monospace;
+}
 #contact {
   background: #f7f7f7;
   padding: 80px 0 40px 0;
