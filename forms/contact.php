@@ -36,11 +36,13 @@
   // $contact->add_message( $_POST['name'], 'From');
   // $contact->add_message( $_POST['email'], 'Email');
   // $contact->add_message( $_POST['message'], 'Message', 10);
-  if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject'])){
-    $name=$_POST['name']);
-    $email=$_POST['email'];
-    $mobile$_POST['subject'];
-    $comment$_POST['message'];
+
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $mobile = $_POST["subject"];
+    $comment = $_POST["message"];
+
   
   $html="<table><tr><td>Name</td><td>$name</td></tr><tr><td>Email</td><td>$email</td></tr><tr><td>Mobile</td><td>$mobile</td></tr><tr><td>Comment</td><td>$comment</td></tr></table>";
 	
@@ -72,4 +74,5 @@
 	echo $msg;
 
   echo $contact->send();
+}s
 ?>
